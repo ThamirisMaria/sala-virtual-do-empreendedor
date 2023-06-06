@@ -1,0 +1,39 @@
+#container{
+    position: relative;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+#p-text{
+    max-width: 392px;
+    max-height: 189px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+#btn-sala-virtual{
+    background-color: #FAA732;
+    border: none;
+    height: 80px;
+    width: 300px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#img-sala-virtual{
+    height:  475px;
+    width: 800px;
+}
