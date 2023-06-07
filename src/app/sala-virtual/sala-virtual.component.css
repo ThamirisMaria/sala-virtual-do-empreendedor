@@ -1,0 +1,27 @@
+#header{
+    color: #008CCA;
+    text-align: center;
+}
+
+#btns{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.btn-sections{
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+    border:none;
+    color: white;
+    background: linear-gradient(120deg,rgba(250,167,50,80%),rgba(0, 140, 202, 80%));
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+}
