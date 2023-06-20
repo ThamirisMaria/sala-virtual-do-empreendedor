@@ -45,6 +45,37 @@ header{
     position: absolute;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.section-title{
+    color: #008CCA;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+#btns-sections{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#services{
+    margin-top: 100px;
+    height: 100vh;
+}
+
 .btn{
     width: 300px;
     height: 100px;
