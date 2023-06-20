@@ -89,3 +89,8 @@ main{
     font-size: 20px;
     line-height: 47px;
 }
+
+.btn-nota-fiscal{
+    width: 380px;
+    height: 250px;
+}
