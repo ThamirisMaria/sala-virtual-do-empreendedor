@@ -1,9 +1,11 @@
-<h1 id="header">BEM-VINDO(A) À SALA VIRTUAL DO EMPREENDEDOR DE COSTA MARQUES</h1>
+<header>
+    <h1 id="header-title">BEM-VINDO(A) À SALA VIRTUAL DO EMPREENDEDOR DE COSTA MARQUES</h1>
 
-<div id="btns">
-    <button class="btn-sections">SERVIÇOS</button>
-    <button class="btn-sections">CERTIDÕES NEGATIVAS</button>
-    <button class="btn-sections">NOTAS FISCAIS</button>
-</div>
+    <div id="btns">
+        <button onclick="document.getElementById('services').scrollIntoView();" class="btn-sections">SERVIÇOS</button>
+        <button onclick="document.getElementById('nota-fiscal').scrollIntoView();" class="btn-sections">CERTIDÕES NEGATIVAS</button>
+        <button onclick="document.getElementById('certidoes-negativas').scrollIntoView();" class="btn-sections">NOTA FISCAL</button>
+    </div>
 
-<img src="..\assets\images\scroll.svg" alt="scroll icon">
+    <div id="icon-scroll-container"><a href="/sala-virtual/#services"><img id="icon-scroll" src="..\assets\images\scroll.svg" alt="scroll icon"></a></div>
+</header>
