@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { SalaVirtualComponent } from './sala-virtual/sala-virtual.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  {path: 'sala-virtual', component: SalaVirtualComponent}
+  {path: 'sala-virtual', component: SalaVirtualComponent},
+  {path: 'contact', component: ContactComponent}
 ];
 
 @NgModule({
